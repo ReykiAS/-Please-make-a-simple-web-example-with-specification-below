@@ -46,7 +46,6 @@
                     url: '/filter-books-by-author/' + authorId,
                     type: 'GET',
                     success: function (data) {
-                        // Update the book dropdown with the retrieved data
                         $('#bookSelect').html('<option value="">Select Book</option>');
                         $.each(data, function (index, book) {
                             $('#bookSelect').append('<option value="' + book.id + '">' + book.title + '</option>');
@@ -62,7 +61,6 @@
             var bookId = $('#bookSelect').val();
             var rating = $('#rating').val();
 
-            // Send AJAX request to giveRating method
             $.ajax({
                 url: '/give-rating',
                 type: 'POST',
@@ -72,7 +70,6 @@
                     'rating': rating
                 },
                 success: function (response) {
-                    // Handle the response as needed
                     alert('Rating submitted successfully.');
                     window.location.href = '/';
                 },

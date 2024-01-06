@@ -19,7 +19,7 @@ class BooksController extends Controller
         
         
         ->orderByDesc('average_rating')
-        ->limit(65000)
+        ->limit(1000)
         ->get();
 
         
@@ -27,7 +27,5 @@ class BooksController extends Controller
 
        
     }
-    public function add(){
-      
-    }
+
 }
