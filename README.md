@@ -4,7 +4,7 @@
 
 ------
 
-### Step by Step Installationrkjf
+### Step by Step Installati
 
 
 1. git clone  https://github.com/ReykiAS/-Please-make-a-simple-web-example-with-specification-below.git
