@@ -4,7 +4,7 @@
 
 ------
 
-### Step by Step Installati
+### Step by Step Installation
 
 
 1. git clone  https://github.com/ReykiAS/-Please-make-a-simple-web-example-with-specification-below.git
